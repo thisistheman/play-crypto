@@ -7,7 +7,7 @@
     "lint": "eslint --max-warnings 0 \"./src/**/*.ts\" \"./scripts/**/*.ts\""
   },
   "dependencies": {
-    "cosmwasm": "^1.1.1",
+    "cosmwasm": "^",
     "@types/crypto-js": "^4.1.1",
     "@types/node": "^17.0.23",
     "alchemy-sdk": "^2.6.1",

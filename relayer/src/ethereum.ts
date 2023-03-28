@@ -55,7 +55,4 @@ export async function getContract(alchemyKey: string) {
         console.log('logs is: ', parsedLog);
     });
 
-
-
-
 }

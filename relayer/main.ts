@@ -14,7 +14,8 @@ const main = async () => {
     }
     console.log("api key is ", apiKey);
     await getBasic();
-    await getContract(apiKey);
+
+    // await getContract(apiKey);
 
     // return;
 
