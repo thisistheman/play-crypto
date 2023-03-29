@@ -43,8 +43,8 @@ export async function getContract(alchemyKey: string) {
     console.log('filter is: ', filter);
 
     const logs = await provider.getLogs({
-        fromBlock: 8721249,
-        toBlock: 8721250,
+        fromBlock: from,
+        toBlock: to,
         address: "0x07865c6e87b9f70255377e024ace6630c1eaa37f",
         topics: [filter],
 
